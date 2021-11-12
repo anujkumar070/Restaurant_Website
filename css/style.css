@@ -36,3 +36,9 @@ body{
 .navbar{
     background-color: rgb(90, 15, 211);
 }
+.rbutton{
+    padding-left:12px;
+    padding-right: 12px;
+    margin:5px;
+    font-size: 21px;
+}
