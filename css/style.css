@@ -54,3 +54,26 @@ body{
 .ltext{
     text-align: center;
 }
+
+.carousel{
+    
+    background-color: black;
+    
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    position:absolute;
+    top:0px;
+    left:0px;
+    min-width: 300px;
+    
+}
+
+.carousel-caption{
+    position: absolute;
+    top:10px;
+    left:340px;
+}
+
