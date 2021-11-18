@@ -1,86 +1,57 @@
-.row-header{
-    padding:0px auto;
-    margin:0px auto;
-    
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
 }
-.jumbotron{
-    background-color: rgb(156, 52, 241);
-    color:white;
-    margin:0px auto;
-    padding:0px auto;
-    min-height: 280px;
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
-.row-content{
-    margin:10px;
-    padding-bottom: 40px;
-    padding-top:40px;
-    border-bottom: 1px ridge;
-    
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
 }
-.footer{
-    background-color: rgb(156, 52, 241);
-    color:white;
-    padding-left: 10px;
-    padding-bottom:10px;
-    margin:0px auto;
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: floralwhite;
 }
-.address{
-    padding-top:10px;
-    font-size: 80%;
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
-
-.navbar{
-    background-color: rgb(90, 15, 211);
+.navbar-dark {
+  background-color: #512DA8;
 }
-.rbutton{
-    padding-left:12px;
-    padding-right: 12px;
-    margin:5px;
-    font-size: 21px;
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
-
-.tab-content{
-    border-left:1px solid #ddd;
-    border-right:1px solid #ddd;
-    border-bottom:1px solid #ddd;
-    padding:10px;
-    margin-bottom:10px;
+.carousel {
+  background: #512DA8;
 }
-
-.ltext{
-    text-align: center;
+.carousel .carousel-item {
+  height: 300px;
 }
-
-.carousel{
-    
-    background-color: black;
-    
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
 }
-.carousel-item{
-    height: 300px;
+#carousel-button {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
 }
-.carousel-item img{
-    position:absolute;
-    top:0px;
-    left:0px;
-    min-width: 300px;
-    
-}
-
-.carousel-caption{
-    position: absolute;
-    top:10px;
-    left:340px;
-}
-
-#carousel-button{
-    position: absolute;
-    
-    right:0;
-    bottom:0px;
-}
-
