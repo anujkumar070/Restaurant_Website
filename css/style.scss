@@ -75,3 +75,16 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-content .modal-header{
+    background-color: $background-dark;
+    color:aliceblue;
+}
+.modal-content .modal-body{
+    background-color: $background-light;
+    color:aliceblue;
+}
+.close{
+    color:floralwhite;
+
+}
